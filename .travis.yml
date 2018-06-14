@@ -1,6 +1,9 @@
 deploy:
   provider: npm
-  email: "igorify@gmail.com"
-  api_key: "B63pqi94EuhwaBvRIomtgw"
+  email: igorify@gmail.com
+  api_key:
+    secure: QhOzJQhMnyoFCU2it6TlGchokC5tkQMFx4EMTxSrZ3wUwqwvbcix8RS84kcuIsr3SWgoxW1QZKw5xdxOSiOf1L28heHA+Z4OrQpLY+mb1PWx9m4V4TsEq9lclihYZRGk2ySHGzBDv0llGiFvyMnAGs+UceLaPOa3/T+rmKkyf2RsYY1Vvz/cx4chOMH+K5eMHmuWDZMjv46rjXgDLB8usvu34TR3HVMrwAClZ5MX2lZ/1VnCu+c5gwko9QmtEeFsuOxhAtRUHvYFqOUoliEKWSdrFWyzVpeVEOf9hWowlAeOZhI5PCMzCDDr8bvj9MuzRExS+0vEny4D/4GatDuNWOLEXWitfOXW/IzWIKrPhU7I/sDtEODVtiQe4ID+jaf0KYj6ti23OCkfjY5JIJfkEsEy9oPGluXXzp9L7ChnqG/s7amRV0eNFbZRPaHOQLWfDIyt0/rLaHHkATvBByYMYBWTdgX+SbtTa1JTnNh9H+H5mUsq2cLr0EYxQVbKjdlcniYeOUrP+9N2StdXGqkvgIwar2WKc3aQuAwNXWgO4I+irTK3xmDqEtsTU9Fqcd7zm2ldfuEId/5wI2r6IPkpKRRfASmRwhTCZQWFDMhXMezI2zPVDj4AYjhWrYhTkCUuyiduqwYymaUTvZa9iMIPwdQE19Zp9siAneIRAJlBwn4=
   on:
     tags: true
+    repo: igorify/getthemall
+
