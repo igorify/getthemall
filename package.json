@@ -7,7 +7,7 @@
 		"access": "public"
 	},
 	"scripts": {
-		"test": "NODE_ENV=test mocha --exit",
+		"test": "NODE_ENV=test mocha --timeout 100000 --exit",
 		"lint": "eslint ."
 	},
 	"engines": {

@@ -24,7 +24,7 @@ describe('GetThemAll middleware test', () => {
 		expect(responce.statusCode).to.equal(200);
 		expect(responce.body).to.be.a('object');
 		expect(responce.body).to.have.property('users')
-			.with.lengthOf(10000);
+			.with.lengthOf(100000);
 	});
 
 	it('should successfully sequentially stream, when couple resources', async () => {
@@ -41,9 +41,9 @@ describe('GetThemAll middleware test', () => {
 			.to.equal(1);
 		expect(responce.body).to.have.property('customers')
 			.with.to.be.a('array')
-			.with.lengthOf(10000);
+			.with.lengthOf(100000);
 		expect(responce.body).to.have.property('countries')
 			.with.to.be.a('array')
-			.with.lengthOf(10000);
+			.with.lengthOf(100000);
 	});
 });
