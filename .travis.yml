@@ -1,0 +1,6 @@
+deploy:
+	provider: npm
+	email: "igorify@gmail.com"
+	api_key: "db743de4-7b29-47ce-9261-22b9d19a9b22"
+	on:
+		tags: true
